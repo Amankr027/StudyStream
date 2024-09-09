@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: 'http://localhost:3000', // Your frontend domain
+		origin: 'https://study-stream-three.vercel.app/', // Your frontend domain
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 	})
