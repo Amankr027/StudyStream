@@ -1,4 +1,4 @@
-const BASE_URL = "https://studystream-ahkj.onrender.com/";
+const BASE_URL = "https://study-stream-three.vercel.app/";
 
 // AUTH ENDPOINTS
 export const endpoints = {
