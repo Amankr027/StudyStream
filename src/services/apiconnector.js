@@ -1,10 +1,7 @@
 import axios from "axios";
 
 // Create axios instance with a base URL (you can configure this in your .env file)
-export const axiosInstance = axios.create({
-  baseURL: process.env.REACT_APP_BASE_URL || "https://studystream-ahkj.onrender.com/",  // Ensure this is correct
-  timeout: 10000, // Optional timeout setting
-});
+export const axiosInstance = axios.create({});
 
 // Updated `apiConnector` with default headers
 export const apiConnector = async (method, url, bodyData, headers, params) => {

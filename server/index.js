@@ -26,7 +26,6 @@ app.use(cookieParser());
 app.use(
 	cors({
 		origin: 'https://study-stream-three.vercel.app/', // Your frontend domain
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 	})
 )
