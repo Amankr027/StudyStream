@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create axios instance with a base URL (you can configure this in your .env file)
 export const axiosInstance = axios.create({
-  baseURL: process.env.REACT_APP_BASE_URL || "http://localhost:4000",  // Ensure this is correct
+  baseURL: process.env.REACT_APP_BASE_URL,  // Ensure this is correct
   timeout: 10000, // Optional timeout setting
 });
 
