@@ -1,4 +1,4 @@
-const BASE_URL = process.env.REACT_APP_BASE_URL;
+const BASE_URL = process.env.REACT_APP_BASE_URL || "https://studystream-ahkj.onrender.com/";
 
 // AUTH ENDPOINTS
 export const endpoints = {
