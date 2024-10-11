@@ -1,4 +1,8 @@
-const BASE_URL = "https://study-stream-three.vercel.app/";
+
+
+// const BASE_URL = "https://study-stream-three.vercel.app/";
+const BASE_URL = process.env.REACT_APP_BACKEND_URL
+
 
 // AUTH ENDPOINTS
 export const endpoints = {
